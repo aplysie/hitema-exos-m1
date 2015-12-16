@@ -30,7 +30,3 @@ class MyClassExtended extends MyClass
 $myClassExtended = new MyClassExtended();
 
 echo $myClassExtended->getMyHiddenTest();
-
-// Le rendu sera ici: "quelquechose"
-// Suite à un petit oubli dans la déclaration de la première classe la méthode ne retourne qu'une chaîne vide.
-// Nous avons donc ici fourni une valeur par défaut à la propriété test
